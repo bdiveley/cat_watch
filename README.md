@@ -1,24 +1,18 @@
-# README
+# Cat Watch
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo is designed to help practice writing routes.
 
-Things you may want to cover:
+###Setup
 
-* Ruby version
+- Clone this repo
+- Setup your database by running this command from the command line `rake db:{create,migrate,seed}`
 
-* System dependencies
+### Goals
+To check your route run `rails s` and visit that route. If it is correct there will be content on the page.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Build route to see all owners
+- Build a route to see all cats for a single owner
+- Build a route to see a particular cat for one owner
+- Build a route to see all wild cats
+- Build a route and controller method to see a wild cat
+(Within the controller be sure to check if the cat is wild and if it isn't redirect back to the wild cat index.)
