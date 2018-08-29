@@ -1,0 +1,10 @@
+<h1> <%= @owner.name %>'s Cats </h1>
+
+<section class="cats">
+  <% @cats.each do |cat| %>
+    <h2>Name: <%= cat.name %></h2>
+    <h3>Status: <%=cat.status%></h3>
+    <h4>Id: <%= cat.id %></h4>
+    <%= image_tag(cat.image_url, size: "350x350", alt: "Cat") %>
+  <% end %>
+</section>
