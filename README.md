@@ -2,7 +2,7 @@
 
 This repo is designed to help practice writing routes.
 
-###Setup
+### Setup
 
 - Clone this repo
 - Setup your database by running this command from the command line `rake db:{create,migrate,seed}`
